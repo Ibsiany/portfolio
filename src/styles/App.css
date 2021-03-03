@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    border: 0;
+}
+
+.container img{
+    position: absolute;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+.body-first {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 50vw;
+    height: 80vh;
+    top: 10%;
+    left: 25%;
+
+    background: black;
+    opacity: 0.9;
+}
+
+.body-first h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    color: white;
+}
+
+.body-first a, button {
+    cursor: pointer;
+    font-family: Poppins;
+    font-weight: 600;
+
+    border-radius: 5px;
+    background: white;
+    color: black;
+
+    margin-left: 16.5rem;
+    margin-top: 2rem;
+
+    width: 10rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+
+    transition: opacity 0.2s;
+}
+
+.body-first a:hover {
+    opacity: 0.8;
+}
+
+.body-first button:hover {
+    opacity: 0.8;
+}
+
+.body-first a img {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+}
+
+#back {
+    background: red;
+    color: white; 
+}
+
+#back:hover {
+    opacity: 0.8;  
+}
+
+.body {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 50vw;
+    height: 80vh;
+    top: 10%;
+    left: 25%;
+
+    background: black;
+    opacity: 0.9;
+}
+
+
+.body h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+    color: white;
+}
+
+.body a {
+    cursor: pointer;
+    font-family: Poppins;
+    font-weight: 600;
+
+    border-radius: 5px;
+    background: white;
+    color: black;
+
+    margin-left: 16.5rem;
+    margin-top: 2rem;
+
+    padding-left: 1rem;
+
+    width: 10rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+
+    transition: opacity 0.2s;
+}
+
+.body a:hover {
+    opacity: 0.8;
+}
+
+.body a img {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+}
+
+#more img{
+    width: 1.2rem;
+    height: 1.2rem;
+    position: relative;
+}
+
+@media (max-widht: 800px) {
+    .body h1{
+        font-weight: 300;
+    }
+}

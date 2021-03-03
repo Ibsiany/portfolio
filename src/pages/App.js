@@ -7,6 +7,7 @@ function App() {
   function ActiveButton(){
     setValue(true);
   }
+  
   function DesactiveButton(){
     setValue(false);
   }
@@ -14,9 +15,9 @@ function App() {
   return (
 
     <div className="container">
+      <img src="./home.jpg" alt="Imagem de fundo" />
       {value ? (
         <>
-          <img src="./home.jpg" alt="Imagem de fundo" />
           <div className="body-first">
             <h1>Portfólio | Ibsiany Dias Godinho</h1>
             <a href="https://ibisflix.vercel.app/" target="_blank"> 
@@ -32,18 +33,17 @@ function App() {
         </>
       ) : (
         <>
-          <img src="./home.jpg" alt="Imagem de fundo" />
           <div className="body">
             <h1>Portfólio | Ibsiany Dias Godinho</h1>
             <a href="https://github.com/ibsiany" target="_blank"> 
               GITHUB
               <img src="./icons/github-logo-2.png" alt="GitHub" />
             </a>
-            <a href="https://www.linkedin.com/in/ibsiany-d-14b329102/" target="_blank">
+            <a href="https://www.linkedin.com/in/ibsiany/" target="_blank">
               LINKEDIN
               <img src="./icons/linkedin-logo.png" alt="Linkedin" />
             </a>
-            <a href="https://app.rocketseat.com.br/me/ibsiany-dias-07171" target="_blank">
+            <a href="https://app.rocketseat.com.br/me/ibsiany-dias" target="_blank">
               ROCKETSEAT
               <img src="./icons/rocketseat-logo.png" alt="Rocketseat" />
             </a>
@@ -54,7 +54,6 @@ function App() {
           </div>
         </>
       )}
-        
     </div>
   );
 }

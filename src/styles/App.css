@@ -38,6 +38,10 @@
     align-items: center;
     padding-top: 1.5rem;
     color: white;
+
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
 }
 
 .body-first a, button {
@@ -107,6 +111,10 @@
     align-items: center;
     padding-top: 1.5rem;
     color: white;
+
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
 }
 
 .body a {
@@ -150,8 +158,29 @@
     position: relative;
 }
 
-@media (max-widht: 800px) {
-    .body h1{
-        font-weight: 300;
+
+@media (max-width: 800px) {
+    .body {
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
     }
-}
+
+    .body a {
+        margin-left: 28%;
+        margin-top: 2rem;
+    }
+
+    .body-first {
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+
+    .body-first a, button {
+        margin-left: 28%;
+        margin-top: 2rem;
+    }
+  }

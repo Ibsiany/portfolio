@@ -18,7 +18,7 @@
     height: 100vh;
 }
 
-.body-first {
+.body-container {
     position: absolute;
     padding: 0;
     margin: 0;
@@ -32,7 +32,7 @@
     opacity: 0.9;
 }
 
-.body-first h1 {
+.body-container h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@
     background: white;
     color: black;
 
-    margin-left: 35%;
+    margin-left: 37.5%;
     margin-top: 2rem;
 
     width: 9.5rem;
@@ -90,33 +90,6 @@
     opacity: 0.8;  
 }
 
-.body {
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    width: 50vw;
-    height: 85vh;
-    top: 10%;
-    left: 25%;
-
-    background: black;
-    opacity: 0.9;
-}
-
-
-.body h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1.5rem;
-    color: white;
-
-    font-family: Poppins;
-    font-weight: 600;
-    text-align: center;
-}
-
 .body a {
     cursor: pointer;
     font-family: Poppins;
@@ -126,7 +99,7 @@
     background: white;
     color: black;
 
-    margin-left: 35%;
+    margin-left: 37.5%;
     margin-top: 2rem;
 
     padding-left: 1rem;
@@ -158,9 +131,21 @@
     position: relative;
 }
 
+.contato {
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.contato img{
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.5rem;
+}
 
 @media (max-width: 800px) {
-    .body {
+    .body-container {
         width: 100vw;
         height: 100vh;
         top: 0;
@@ -172,15 +157,12 @@
         margin-top: 2rem;
     }
 
-    .body-first {
-        width: 100vw;
-        height: 100vh;
-        top: 0;
-        left: 0;
-    }
-
     .body-first a, button {
         margin-left: 28%;
         margin-top: 2rem;
+    }
+
+    .contato {
+        
     }
   }

@@ -17,7 +17,7 @@ O **Portfólio** foi realizado para organizar minhas redes e meus projetos em um
 
 ## 💻 Tecnologias utilizadas
 
-Foram utilizadas as seguintes tecnologias:
+Foi utilizada a seguinte tecnologia:
 
 - [ReactJS](https://pt-br.reactjs.org/)
 

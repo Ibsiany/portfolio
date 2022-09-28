@@ -55,7 +55,7 @@ function App() {
           </>
         )}
       <div  className="contato" >
-        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5533987158055" target="_blank" alt="Telefone de contato">
+        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5531987158055" target="_blank" alt="Telefone de contato">
           <img src="./icons/whatsapp.svg" alt="Whatsapp"/>
         </a>
         <a href="mailto:ibsianyd@gmail.com" target="_blank" alt="E-mail de contato">
